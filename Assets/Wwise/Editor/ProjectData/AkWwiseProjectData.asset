@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f30d83b5557d4fe2b1e8b8544f6f6ea, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 58e29be32b78e94f94d770310bb95715
+    ParentPath: Virtual Acoustics/Default Work Unit
+    guid: 58e29be32b78e94f94d770310bb95715
+    GuidInternal: 
+    m_lastTime: -8584769632912059555
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 41d97c69889607409693d771a430fccc
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    guid: 41d97c69889607409693d771a430fccc
+    GuidInternal: 
+    m_lastTime: -8584769632913287743
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 41d97c69889607409693d771a430fccc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b95c929fb8be6e45bc1195f85d296a7f
+    ParentPath: SoundBanks/Default Work Unit
+    guid: b95c929fb8be6e45bc1195f85d296a7f
+    GuidInternal: 
+    m_lastTime: -8584769630033889535
+    List:
+    - name: Main
+      guid: ff3a40e0773f9f4794179c57890a408c
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b95c929fb8be6e45bc1195f85d296a7f
+      - ElementName: Main
+        ObjectType: 7
+        guid: ff3a40e0773f9f4794179c57890a408c
+      Path: SoundBanks/Default Work Unit/Main
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 29a2a7d04dc5e3428cb31651202da4e5
+    ParentPath: Events/Default Work Unit
+    guid: 29a2a7d04dc5e3428cb31651202da4e5
+    GuidInternal: 
+    m_lastTime: -8584760320296212603
+    List:
+    - name: Carabine_Shot
+      guid: 7abb6b306ff0f147b3ba17c4b0fe4e8d
+      id: 1312312481
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a7d04dc5e3428cb31651202da4e5
+      - ElementName: Carabine_Shot
+        ObjectType: 3
+        guid: 7abb6b306ff0f147b3ba17c4b0fe4e8d
+      Path: Events/Default Work Unit/Carabine_Shot
+      maxAttenuation: 0
+      maxDuration: 1.0217376
+      minDuration: 0.27977082
+    - name: Pistol_Shot
+      guid: 994fbe23459ac34585ad2f0e604756a2
+      id: 991589999
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a7d04dc5e3428cb31651202da4e5
+      - ElementName: Pistol_Shot
+        ObjectType: 3
+        guid: 994fbe23459ac34585ad2f0e604756a2
+      Path: Events/Default Work Unit/Pistol_Shot
+      maxAttenuation: 0
+      maxDuration: 1.0514584
+      minDuration: 0.27977082
+    - name: Play_Bullet_Impact
+      guid: c34f8fb8b2d8534880b691861957e4f7
+      id: 1595647367
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a7d04dc5e3428cb31651202da4e5
+      - ElementName: Play_Bullet_Impact
+        ObjectType: 3
+        guid: c34f8fb8b2d8534880b691861957e4f7
+      Path: Events/Default Work Unit/Play_Bullet_Impact
+      maxAttenuation: 100
+      maxDuration: 0.92252165
+      minDuration: 0.47817528
+    - name: Rifle_Shot
+      guid: aa93043d8c2d5a4ca49354aaf9581ff3
+      id: 560167336
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a7d04dc5e3428cb31651202da4e5
+      - ElementName: Rifle_Shot
+        ObjectType: 3
+        guid: aa93043d8c2d5a4ca49354aaf9581ff3
+      Path: Events/Default Work Unit/Rifle_Shot
+      maxAttenuation: 0
+      maxDuration: 1.51875
+      minDuration: 0.27977082
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ef8a8826dd445448ad70948b7fe2fa2b
+    ParentPath: Game Parameters/Default Work Unit
+    guid: ef8a8826dd445448ad70948b7fe2fa2b
+    GuidInternal: 
+    m_lastTime: -8584761389849974713
+    List:
+    - name: AmmoCount
+      guid: f1328812742a1f4eb81cf2afd3b1bb08
+      id: 3342192252
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ef8a8826dd445448ad70948b7fe2fa2b
+      - ElementName: AmmoCount
+        ObjectType: 13
+        guid: f1328812742a1f4eb81cf2afd3b1bb08
+      Path: Game Parameters/Default Work Unit/AmmoCount
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a9ae4eb0b4e7784c9f084e95b7eec87c
+    ParentPath: States/Default Work Unit
+    guid: a9ae4eb0b4e7784c9f084e95b7eec87c
+    GuidInternal: 
+    m_lastTime: -8584769632912920247
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 692ef601c7668b4b98bd687c9f04e6e9
+    ParentPath: Switches/Default Work Unit
+    guid: 692ef601c7668b4b98bd687c9f04e6e9
+    GuidInternal: 
+    m_lastTime: -8584761387692115178
+    List:
+    - name: Magazine
+      guid: feeea9c513835f4197ab1c612926d4c5
+      id: 4196081331
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 692ef601c7668b4b98bd687c9f04e6e9
+      - ElementName: Magazine
+        ObjectType: 11
+        guid: feeea9c513835f4197ab1c612926d4c5
+      Path: Switches/Default Work Unit/Magazine
+      values:
+      - name: Empity
+        guid: 33c9930c52f20545b47766306d95e8ed
+        id: 1194645199
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 692ef601c7668b4b98bd687c9f04e6e9
+        - ElementName: Magazine
+          ObjectType: 11
+          guid: feeea9c513835f4197ab1c612926d4c5
+        - ElementName: Empity
+          ObjectType: 10
+          guid: 33c9930c52f20545b47766306d95e8ed
+      - name: Full
+        guid: c235749cb10c0d44b8626e1d31c6dce1
+        id: 2510516222
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 692ef601c7668b4b98bd687c9f04e6e9
+        - ElementName: Magazine
+          ObjectType: 11
+          guid: feeea9c513835f4197ab1c612926d4c5
+        - ElementName: Full
+          ObjectType: 10
+          guid: c235749cb10c0d44b8626e1d31c6dce1
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 01b4584eab2663488b15b79cb2d644cf
+    ParentPath: Triggers/Default Work Unit
+    guid: 01b4584eab2663488b15b79cb2d644cf
+    GuidInternal: 
+    m_lastTime: -8584769632912443062
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000b0000000c0000001500000016000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

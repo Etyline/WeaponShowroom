@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="WeaponShowroom" GUID="{C7583D16-F3D2-4E1B-AA1F-E46DEA8F28C7}" Generator="2023.1.6.8555"/>
+	<CacheRoot>../../../../../../WwiseProjects/WeaponShowroom/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{AEE86EF3-390E-4973-8703-482ED6BCA4F9}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../../../WwiseProjects/WeaponShowroom/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{F0C4EF66-5406-429D-BB1C-E4A88CA7CEE9}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../../WwiseProjects/WeaponShowroom/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{CCBB3794-EFC6-4C91-8F88-612629ECA5B0}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{06ABC41C-7687-A118-53A1-E7B45448E5BC}</FileHash>
+</ProjectInfo>
