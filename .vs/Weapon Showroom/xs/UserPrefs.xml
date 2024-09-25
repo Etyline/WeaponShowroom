@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{0D041772-A6F5-5E71-6E23-95C42379795F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PickUpController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gun.cs">
     <Files>
-      <File FileName="Assets/Scripts/Gun.cs" Line="55" Column="1" />
-      <File FileName="Assets/Scripts/WwiseShot.cs" />
-      <File FileName="Assets/Scripts/AmmoGameParameter.cs" />
-      <File FileName="Assets/Scripts/PickUpController.cs" Line="9" Column="29" />
+      <File FileName="Assets/Scripts/Gun.cs" Line="81" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +9,7 @@
           <Node name="Weapon Showroom" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PickUpController.cs" selected="True" />
+                <Node name="Gun.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -26,5 +23,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Ak.Wwise.Api.WAAPI PreferredExecutionTarget="f50375fd-0efa-4b3f-9895-d930f3c23212" />
+  <MonoDevelop.Ide.ItemProperties.Ak.Wwise.Api.WAAPI PreferredExecutionTarget="b6b3c00f-4b21-48af-9a07-f3df79540fbf" />
 </Properties>
