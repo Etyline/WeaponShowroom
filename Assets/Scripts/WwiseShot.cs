@@ -6,14 +6,14 @@ using UnityEngine;
 public class WwiseShot : MonoBehaviour
 {
     public AK.Wwise.Event ShotEvent;
-    public Action Shot;
+    public Action OnShoot;
 
     private void Start()
     {
-        Shot += ShotSound;
+        OnShoot += WwiseEvent;
     }
 
-    private void ShotSound()
+    private void WwiseEvent()
     {
         ShotEvent.Post(gameObject);
     }

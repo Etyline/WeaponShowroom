@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1440
     height: 900
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 112
+  controlID: 19
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 113
+  controlID: 20
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 47
+  controlID: 21
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -318,23 +318,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 64f8ffff74f8ffff10fbffffc4550000e6550000
+      m_SelectedIDs: 2e570000
+      m_LastClickedID: 22318
+      m_ExpandedIDs: 24faffff34faffff36faffff2e57000060570000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: pistol
-        m_OriginalName: pistol
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1266
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -395,9 +395,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: 149}
+      snapOffset: {x: -141, y: -214.5}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 3
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -707,7 +707,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 48, y: 25}
+      snapOffset: {x: 48, y: 10}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.7221944, y: 1.8455163, z: -2.4963186}
+    m_Target: {x: -23.319878, y: -9.062628, z: -0.5388494}
     speed: 2
-    m_Value: {x: -0.7221944, y: 1.8455163, z: -2.4963186}
+    m_Value: {x: -23.319878, y: -9.062628, z: -0.5388494}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -787,20 +787,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.019453209, y: 0.06833142, z: -0.0013326007, w: 0.997472}
+    m_Target: {x: 0.12842944, y: -0.72603065, z: 0.14113697, w: 0.6606662}
     speed: 2
-    m_Value: {x: 0.01945321, y: 0.06833143, z: -0.0013326008, w: 0.9974721}
+    m_Value: {x: 0.12842853, y: -0.7260255, z: 0.14113598, w: 0.6606616}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 14.797552
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 14.797552
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.99988526
-    m_SpeedNormalized: 0.49969247
+    m_Speed: 0.9966508
+    m_SpeedNormalized: 0.49807444
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1010,9 +1010,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fc5c0000
-    m_LastClickedID: 23804
-    m_ExpandedIDs: 000000000a5c0000ee5c0000
+    m_SelectedIDs: 005d0000
+    m_LastClickedID: 23808
+    m_ExpandedIDs: 00000000c05c0000ee5c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1040,7 +1040,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 00000000c05c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1117,9 +1117,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 468
+    y: 467.5
     width: 1097.5
-    height: 391
+    height: 340.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1168,7 +1168,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 05000000060000000b0000000c0000001500000016000000
+    m_ExpandedIDs: 05000000060000000b0000000c00000015000000160000001700000018000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
