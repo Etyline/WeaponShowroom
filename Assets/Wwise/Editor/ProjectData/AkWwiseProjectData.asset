@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 29a2a7d04dc5e3428cb31651202da4e5
     GuidInternal: 
-    m_lastTime: -8584760320296212603
+    m_lastTime: -8584734612518928797
     List:
+    - name: Carabine_Reload_Full
+      guid: 04e2f5f0617b394bbd257b5d93766487
+      id: 3125197214
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a7d04dc5e3428cb31651202da4e5
+      - ElementName: Carabine_Reload_Full
+        ObjectType: 3
+        guid: 04e2f5f0617b394bbd257b5d93766487
+      Path: Events/Default Work Unit/Carabine_Reload_Full
+      maxAttenuation: 0
+      maxDuration: 4
+      minDuration: 4
+    - name: Carabine_Reload_Partial
+      guid: 2ad88b33b99be749b47cedc750fc017b
+      id: 1310243084
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a7d04dc5e3428cb31651202da4e5
+      - ElementName: Carabine_Reload_Partial
+        ObjectType: 3
+        guid: 2ad88b33b99be749b47cedc750fc017b
+      Path: Events/Default Work Unit/Carabine_Reload_Partial
+      maxAttenuation: 0
+      maxDuration: 3.162162
+      minDuration: 3.162162
     - name: Carabine_Shot
       guid: 7abb6b306ff0f147b3ba17c4b0fe4e8d
       id: 1312312481
@@ -147,6 +181,40 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 0.92252165
       minDuration: 0.47817528
+    - name: Player_Footsteps
+      guid: ad6906f9296d3040a54a3494dd2fb476
+      id: 1730208058
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a7d04dc5e3428cb31651202da4e5
+      - ElementName: Player_Footsteps
+        ObjectType: 3
+        guid: ad6906f9296d3040a54a3494dd2fb476
+      Path: Events/Default Work Unit/Player_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.295125
+      minDuration: 0.21591666
+    - name: Rifle_Reload
+      guid: bf40a842d2cd7c42929637b28b0bd3d5
+      id: 3214964847
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a7d04dc5e3428cb31651202da4e5
+      - ElementName: Rifle_Reload
+        ObjectType: 3
+        guid: bf40a842d2cd7c42929637b28b0bd3d5
+      Path: Events/Default Work Unit/Rifle_Reload
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Rifle_Shot
       guid: aa93043d8c2d5a4ca49354aaf9581ff3
       id: 560167336
@@ -218,7 +286,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 692ef601c7668b4b98bd687c9f04e6e9
     GuidInternal: 
-    m_lastTime: -8584761387692115178
+    m_lastTime: -8584742375364573449
     List:
     - name: Magazine
       guid: feeea9c513835f4197ab1c612926d4c5
@@ -267,6 +335,56 @@ MonoBehaviour:
         - ElementName: Full
           ObjectType: 10
           guid: c235749cb10c0d44b8626e1d31c6dce1
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Materials
+      guid: 5304d975892b53488ef9b74de24ee2f9
+      id: 4050929301
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 692ef601c7668b4b98bd687c9f04e6e9
+      - ElementName: Materials
+        ObjectType: 11
+        guid: 5304d975892b53488ef9b74de24ee2f9
+      Path: Switches/Default Work Unit/Materials
+      values:
+      - name: Concrete
+        guid: 685b9ef09c621f449c4e53e40720c851
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 692ef601c7668b4b98bd687c9f04e6e9
+        - ElementName: Materials
+          ObjectType: 11
+          guid: 5304d975892b53488ef9b74de24ee2f9
+        - ElementName: Concrete
+          ObjectType: 10
+          guid: 685b9ef09c621f449c4e53e40720c851
+      - name: Wood
+        guid: 08e72cfd63415d4185fa33bef82d698c
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 692ef601c7668b4b98bd687c9f04e6e9
+        - ElementName: Materials
+          ObjectType: 11
+          guid: 5304d975892b53488ef9b74de24ee2f9
+        - ElementName: Wood
+          ObjectType: 10
+          guid: 08e72cfd63415d4185fa33bef82d698c
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []

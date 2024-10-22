@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 355576dbba96a4d4cb55482d483c315f, type: 3}
   m_Name: B88F4FC3-D8B2-4853-80B6-91861957E4F7
   m_EditorClassIdentifier: 
-  objectName: Play_Bullet_Impact
-  id: 1595647367
+  objectName: Bullet_Impact
+  id: 3921814510
   guid: B88F4FC3-D8B2-4853-80B6-91861957E4F7

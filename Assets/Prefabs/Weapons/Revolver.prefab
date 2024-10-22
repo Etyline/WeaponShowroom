@@ -34,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.779
+      value: 0.84
       objectReference: {fileID: 0}
     - target: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}
       propertyPath: m_LocalRotation.w
@@ -183,12 +183,11 @@ MonoBehaviour:
   bulletsLeft: 0
   bulletsShot: 0
   fpsCam: {fileID: 0}
-  attackPoint: {fileID: 0}
   whatIsEnemy:
     serializedVersion: 2
     m_Bits: 8
-  muzzleFlash: {fileID: 0}
   bulletHoleGraphic: {fileID: 0}
+  muzzleFlash: {fileID: 0}
   text: {fileID: 0}
 --- !u!4 &6890153401560995326 stripped
 Transform:

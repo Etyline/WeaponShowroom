@@ -8,7 +8,7 @@ public class GunSystem : MonoBehaviour
 {
 
     //Audio
-    [SerializeField] WwiseShot SoundShoot;
+    [SerializeField] WwiseWeapons WwiseSoundWeapons;
 
     //Gun Stats
     public int damage;
@@ -24,21 +24,29 @@ public class GunSystem : MonoBehaviour
 
     //Reference
     public Camera fpsCam;
-    public Transform attackPoint;
     public RaycastHit rayHit;
     public LayerMask whatIsEnemy;
 
 
     //Graphics
-    public GameObject muzzleFlash, bulletHoleGraphic;
+    public GameObject bulletHoleGraphic;
+    public ParticleSystem muzzleFlash;
     public TextMeshProUGUI text;
 
+    //Animation
+    private Animator mAnimator;
 
     private void Awake()
     {
         bulletsLeft = magazineSize;
         readyToShoot = true;
     }
+
+    private void Start()
+    {
+        mAnimator = GetComponent<Animator>();
+    }
+
     private void Update()
     {
         MyInput();
@@ -47,6 +55,7 @@ public class GunSystem : MonoBehaviour
         //SetText
         text.SetText(bulletsLeft + " / " + magazineSize);
     }
+
     private void MyInput()
     {
         if (allowButtonHold) shooting = Input.GetKey(KeyCode.Mouse0);
@@ -61,15 +70,20 @@ public class GunSystem : MonoBehaviour
         {
             bulletsShot = bulletsPerTap;
             Shoot();
-            SoundShoot.OnShoot();
+            WwiseSoundWeapons.OnShoot();
         }
-        if (shooting && bulletsLeft == 0) SoundShoot.OnShoot();
+        if (shooting && bulletsLeft == 0) WwiseSoundWeapons.OnShoot();
         
     }
+
+    private void MuzzleFlashPlay()
+    {
+        muzzleFlash.Play();
+    }
+
     private void Shoot()
     {
         readyToShoot = false;
-
 
         //Spread
         float x = Random.Range(-spread, spread);
@@ -81,8 +95,7 @@ public class GunSystem : MonoBehaviour
 
 
         //RayCast
-        GameObject flash = Instantiate(muzzleFlash, attackPoint.position, Quaternion.identity, attackPoint);
-        Destroy(flash, 0.1f);
+        MuzzleFlashPlay();
 
         if (Physics.Raycast(fpsCam.transform.position, direction, out rayHit, range))
         {
@@ -111,15 +124,20 @@ public class GunSystem : MonoBehaviour
         if (bulletsShot > 0 && bulletsLeft > 0)
             Invoke("Shoot", timeBetweenShots);
     }
+
     private void ResetShot()
     {
         readyToShoot = true;
     }
+
     private void Reload()
     {
         reloading = true;
         Invoke("ReloadFinished", reloadTime);
+        mAnimator.SetTrigger("Reload");
+        WwiseSoundWeapons.OnReload();
     }
+
     private void ReloadFinished()
     {
         bulletsLeft = magazineSize;
