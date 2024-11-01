@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 29a2a7d04dc5e3428cb31651202da4e5
     GuidInternal: 
-    m_lastTime: -8584734612518928797
+    m_lastTime: -8584719945849802131
     List:
+    - name: Bullet_Impact
+      guid: c34f8fb8b2d8534880b691861957e4f7
+      id: 3921814510
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a7d04dc5e3428cb31651202da4e5
+      - ElementName: Bullet_Impact
+        ObjectType: 3
+        guid: c34f8fb8b2d8534880b691861957e4f7
+      Path: Events/Default Work Unit/Bullet_Impact
+      maxAttenuation: 100
+      maxDuration: 0.92252165
+      minDuration: 0.31713665
     - name: Carabine_Reload_Full
       guid: 04e2f5f0617b394bbd257b5d93766487
       id: 3125197214
@@ -164,23 +181,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.0514584
       minDuration: 0.27977082
-    - name: Play_Bullet_Impact
-      guid: c34f8fb8b2d8534880b691861957e4f7
-      id: 1595647367
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 29a2a7d04dc5e3428cb31651202da4e5
-      - ElementName: Play_Bullet_Impact
-        ObjectType: 3
-        guid: c34f8fb8b2d8534880b691861957e4f7
-      Path: Events/Default Work Unit/Play_Bullet_Impact
-      maxAttenuation: 100
-      maxDuration: 0.92252165
-      minDuration: 0.47817528
     - name: Player_Footsteps
       guid: ad6906f9296d3040a54a3494dd2fb476
       id: 1730208058
@@ -198,9 +198,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.295125
       minDuration: 0.21591666
-    - name: Rifle_Reload
-      guid: bf40a842d2cd7c42929637b28b0bd3d5
-      id: 3214964847
+    - name: Player_Jump
+      guid: 1adb0b41ac7a5c4bacc39c85ff1bb9ce
+      id: 1305133589
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -208,13 +208,30 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 29a2a7d04dc5e3428cb31651202da4e5
-      - ElementName: Rifle_Reload
+      - ElementName: Player_Jump
         ObjectType: 3
-        guid: bf40a842d2cd7c42929637b28b0bd3d5
-      Path: Events/Default Work Unit/Rifle_Reload
+        guid: 1adb0b41ac7a5c4bacc39c85ff1bb9ce
+      Path: Events/Default Work Unit/Player_Jump
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.5397292
+      minDuration: 0.5397292
+    - name: Player_Land
+      guid: 1a66d7f8a69c034682ba808afcff4d93
+      id: 3629196698
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a7d04dc5e3428cb31651202da4e5
+      - ElementName: Player_Land
+        ObjectType: 3
+        guid: 1a66d7f8a69c034682ba808afcff4d93
+      Path: Events/Default Work Unit/Player_Land
+      maxAttenuation: 0
+      maxDuration: 0.36160415
+      minDuration: 0.36160415
     - name: Rifle_Shot
       guid: aa93043d8c2d5a4ca49354aaf9581ff3
       id: 560167336
@@ -403,7 +420,7 @@ MonoBehaviour:
     m_lastTime: -8584769632912443062
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000b0000000c00000015000000160000001700000018000000
+  ExpandedWaapiItemIds: 05000000060000000b0000000c000000150000001600000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

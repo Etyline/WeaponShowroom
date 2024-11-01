@@ -371,6 +371,7 @@
 "Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs"
 "Assets/Low Poly Guns/Scripts/GunsMenu.cs"
 "Assets/Low Poly Guns/Scripts/GunView.cs"
+"Assets/PlayImpact.cs"
 "Assets/Scripts/AmmoGameParameter.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/Switcher.cs"
@@ -386,6 +387,7 @@
 "Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs"
 "Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs"
 "Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs"
+"Assets/Surface.cs"
 -langversion:9.0
 /deterministic
 /optimize+

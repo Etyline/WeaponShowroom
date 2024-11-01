@@ -12,7 +12,7 @@ namespace StarterAssets
 #endif
 	public class FirstPersonController : MonoBehaviour
 	{
-		[SerializeField] public float timerStep;
+		public float timerStep;
 		[SerializeField] WwisePlayer WwiseSoundPlayer;
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]

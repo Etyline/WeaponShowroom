@@ -306,6 +306,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: cdb40d67c313c4c378a894676e84ea12, type: 2}
+  ImpactEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &158966826
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +422,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3830189551164593867, guid: ee038dad18e6944f192ce238d19227f9, type: 3}
       propertyPath: timerStep
-      value: 0.4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3830189551164593867, guid: ee038dad18e6944f192ce238d19227f9, type: 3}
       propertyPath: WwiseSoundPlayer
@@ -942,6 +946,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  ImpactEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!198 &882486790 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 834174309047976378, guid: b74a5bf4fe018426db84bd523d4f5f4d, type: 3}
@@ -1308,6 +1316,29 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1496959347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5043663941078610840, guid: 09aade0ecefd01e4b8f7661acf64f5c2, type: 3}
+  m_PrefabInstance: {fileID: 1929815602}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1496959352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496959347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0107ebf7f63764e9b8f32a3c5cc8a321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceType:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fef91903387c34121b2df3b50b5f0c51, type: 2}
 --- !u!4 &1592443425 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3507324683285521338, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
@@ -1457,6 +1488,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5043663941078610840, guid: 09aade0ecefd01e4b8f7661acf64f5c2, type: 3}
+      propertyPath: m_TagString
+      value: Surface
+      objectReference: {fileID: 0}
     - target: {fileID: 8345070699079395522, guid: 09aade0ecefd01e4b8f7661acf64f5c2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1508,7 +1543,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5043663941078610840, guid: 09aade0ecefd01e4b8f7661acf64f5c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1496959352}
   m_SourcePrefab: {fileID: 100100000, guid: 09aade0ecefd01e4b8f7661acf64f5c2, type: 3}
 --- !u!1 &1947502319
 GameObject:
@@ -1714,6 +1752,10 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 35b07710d4da0455e9f68f0bdcabdc3c, type: 2}
   ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  ImpactEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}

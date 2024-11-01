@@ -4697,7 +4697,7 @@ GameObject:
   - component: {fileID: 19900002}
   - component: {fileID: 11400000}
   - component: {fileID: 6273104701142032380}
-  - component: {fileID: -7743778304755275146}
+  - component: {fileID: 2866756230019612775}
   m_Layer: 0
   m_Name: PH_Impact
   m_TagString: Untagged
@@ -9463,7 +9463,7 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &-7743778304755275146
+--- !u!114 &2866756230019612775
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9472,26 +9472,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc6626179a476433cae71b4f8b9dac32, type: 3}
+  m_Script: {fileID: 11500000, guid: 1930d8b3db51f458881fb1c3fcfa9bce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: ae8d9d44
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
+  impactEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: eb670bd91f671417c9cf825b8d0d381f, type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0

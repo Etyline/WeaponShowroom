@@ -60,6 +60,7 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Surface.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" />
     <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_New.cs" />
     <Compile Include="Assets/Low Poly Guns/Scripts/GunsMenu.cs" />
+    <Compile Include="Assets/PlayImpact.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs" />
     <Compile Include="Assets/Scripts/Switcher.cs" />
     <Compile Include="Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs" />

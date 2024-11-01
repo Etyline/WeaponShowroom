@@ -109,8 +109,17 @@ public class GunSystem : MonoBehaviour
                 }
                 
             }
+            if(rayHit.collider.CompareTag("Surface"))
+            {
+                Debug.Log("Hit");
+                AK.Wwise.Switch targetSurface = rayHit.collider.gameObject.GetComponent<Surface>().surfaceType;
+                Debug.Log(targetSurface.GroupId);
+                GameObject instance = Instantiate(bulletHoleGraphic, rayHit.point, Quaternion.LookRotation(rayHit.normal));
+                AkSoundEngine.SetSwitch(targetSurface.GroupId, targetSurface.Id, instance);
+                instance.GetComponent<PlayImpact>().PlaySound();
+            }
+           
 
-            Instantiate(bulletHoleGraphic, rayHit.point, Quaternion.LookRotation(rayHit.normal));
         }
 
 
